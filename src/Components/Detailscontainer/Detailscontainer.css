@@ -59,5 +59,6 @@ color: hsl(228, 12%, 48%);
 @media only screen and (max-width: 600px){
     #detcont{
         border-radius: 0 0 10px 10px;
+        width: 100%
     }
 }

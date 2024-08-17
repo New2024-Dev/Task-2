@@ -20,7 +20,11 @@ body{
 
 @media only screen and (max-width: 600px){
     #root{
-       height: 1000px;
+       height: 800px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
        
     } 
 }

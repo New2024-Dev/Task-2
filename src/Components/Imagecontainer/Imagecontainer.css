@@ -13,7 +13,15 @@
 @media only screen and (max-width: 600px){
     #myimg{
         border-radius: 10px 10px 0 0;
-        height: auto;
+        
+    }
+
+    #imgcont{
+        width: 100%;
+        height: 300px;
+       
+        
+        
     }
 
     
