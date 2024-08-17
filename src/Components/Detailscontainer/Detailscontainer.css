@@ -1,0 +1,63 @@
+#detcont{
+    width: 50%;
+    
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+    
+#pricedev{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+#header{
+    margin: 0;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+#parg{
+    margin: 0;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+}
+#cart{
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+}
+#pric1{
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(158, 36%, 37%);
+}
+
+#discount{
+font-size: 15px;
+color: hsl(228, 12%, 48%);
+}
+
+#perfum{
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+}
+
+@media only screen and (max-width: 600px){
+    #detcont{
+        border-radius: 0 0 10px 10px;
+    }
+}

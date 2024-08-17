@@ -1,0 +1,19 @@
+
+main{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        
+    }
+}
